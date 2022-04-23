@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="lef_nav">
+      <img src="/images/logo.svg" alt="Logo**" class="logo">
+      <img id="menu" src="/images/icon-menu.svg" alt="">
+      <ul class="nav_links_container">
+        <li class="link menu_link" id="features">Features <img src="/images/icon-arrow-down.svg" alt="">
+          <ul id="feature_list" class="sub_list">
+            <li><img src="/images/icon-todo.svg" alt="todo"> &nbsp ToDo List</li>
+            <li><img src="/images/icon-calendar.svg" alt="calendar"> &nbsp Calendar</li>
+            <li><img src="/images/icon-reminders.svg" alt="reminder"> &nbsp Reminders</li>
+            <li><img src="/images/icon-planning.svg" alt="planning"> &nbsp Panning</li>
+          </ul>
+        </li>
+        <li class="link menu_link" id="company">Company <img src="/images/icon-arrow-down.svg" alt="">
+          <ul id="company_list" class="sub_list">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+        <li class="link">Careers</li>
+        <li class="link">About</li>
+      </ul>
+
+    </div>
+    <div class="right_nav">
+      <button class="btn">Login</button>
+      <button class="btn" id="btn1">Register</button>
+    </div>
+  </nav>
+
+  <section class="main">
+    <section class="left">
+      <h1>Make <br> remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+        <button class="btn" id="btn2">Learn More</button>
+        <div class="partner_container">
+          <img src="/images/client-databiz.svg" alt="databiz" class="brand_logo">
+          <img src="/images/client-audiophile.svg" alt="audiophile" class="brand_logo">
+          <img src="/images/client-meet.svg" alt="meet" class="brand_logo">
+          <img src="/images/client-maker.svg" alt="maker" class="brand_logo">
+        </div>
+    </section>
+    <section class="right">
+      <img src="/images/image-hero-desktop.png" alt="hero_image">
+    </section>
+  </section>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/SomeshN-GitHub" target="_blank">Somesh Nitnavare</a>.
+  </div>
+
+  <script src="/index.js"></script>
+</body>
+</html>
