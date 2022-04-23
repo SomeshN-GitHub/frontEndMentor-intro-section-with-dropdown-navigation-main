@@ -271,7 +271,7 @@ li:hover {
     width: 100%;
   }
   .main .right img {
-    content: url("/images/image-hero-mobile.png");
+    content: url("./images/image-hero-mobile.png");
     width: 100%;
   }
   .partner_container {
